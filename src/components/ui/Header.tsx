@@ -51,7 +51,7 @@ export default function Component() {
   )
 }
 
-function CarIcon(props) {
+function CarIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -70,5 +70,5 @@ function CarIcon(props) {
       <path d="M9 17h6" />
       <circle cx="17" cy="17" r="2" />
     </svg>
-  )
+  );
 }
